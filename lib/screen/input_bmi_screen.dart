@@ -10,6 +10,11 @@ class InputBmiScreen extends StatefulWidget {
 class _InputBmiScreenState extends State<InputBmiScreen> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(appBar: AppBar(title: Text('BMI Calculator')));
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('BMI Calculator'),
+        backgroundColor: Colors.purpleAccent,
+      ),
+    );
   }
 }
